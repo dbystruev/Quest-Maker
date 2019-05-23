@@ -7,18 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6995C3A7229666AB00DDBC09 /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6995C3A6229666AB00DDBC09 /* Navigator.swift */; };
+		6995C3AA2296752000DDBC09 /* QuestListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6995C3A82296752000DDBC09 /* QuestListViewController.swift */; };
+		6995C3AF2296784900DDBC09 /* Quest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6995C3AE2296784900DDBC09 /* Quest.swift */; };
+		6995C3B122967A6200DDBC09 /* QuestListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6995C3B022967A6200DDBC09 /* QuestListViewController.xib */; };
+		6995C3B522967C3F00DDBC09 /* QuestListViewController+UITableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6995C3B422967C3F00DDBC09 /* QuestListViewController+UITableViewDataSource.swift */; };
+		6995C3BA22967DE100DDBC09 /* QuestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6995C3B822967DE100DDBC09 /* QuestCell.swift */; };
+		6995C3BB22967DE100DDBC09 /* QuestCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6995C3B922967DE100DDBC09 /* QuestCell.xib */; };
+		6995C3BE2296817500DDBC09 /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6995C3BD2296817500DDBC09 /* NibLoadable.swift */; };
 		69CD2AE422955D70004DCA78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CD2AE322955D70004DCA78 /* AppDelegate.swift */; };
-		69CD2AE622955D70004DCA78 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CD2AE522955D70004DCA78 /* ViewController.swift */; };
-		69CD2AE922955D70004DCA78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69CD2AE722955D70004DCA78 /* Main.storyboard */; };
 		69CD2AEB22955D73004DCA78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69CD2AEA22955D73004DCA78 /* Assets.xcassets */; };
 		69CD2AEE22955D73004DCA78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69CD2AEC22955D73004DCA78 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6995C3A6229666AB00DDBC09 /* Navigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigator.swift; sourceTree = "<group>"; };
+		6995C3A82296752000DDBC09 /* QuestListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestListViewController.swift; sourceTree = "<group>"; };
+		6995C3AE2296784900DDBC09 /* Quest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quest.swift; sourceTree = "<group>"; };
+		6995C3B022967A6200DDBC09 /* QuestListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuestListViewController.xib; sourceTree = "<group>"; };
+		6995C3B422967C3F00DDBC09 /* QuestListViewController+UITableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QuestListViewController+UITableViewDataSource.swift"; sourceTree = "<group>"; };
+		6995C3B822967DE100DDBC09 /* QuestCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestCell.swift; sourceTree = "<group>"; };
+		6995C3B922967DE100DDBC09 /* QuestCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuestCell.xib; sourceTree = "<group>"; };
+		6995C3BD2296817500DDBC09 /* NibLoadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibLoadable.swift; sourceTree = "<group>"; };
 		69CD2AE022955D70004DCA78 /* Quest Maker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quest Maker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		69CD2AE322955D70004DCA78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		69CD2AE522955D70004DCA78 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		69CD2AE822955D70004DCA78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		69CD2AEA22955D73004DCA78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69CD2AED22955D73004DCA78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		69CD2AEF22955D73004DCA78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -35,6 +47,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6995C3A5229664D100DDBC09 /* Navigators */ = {
+			isa = PBXGroup;
+			children = (
+				6995C3A6229666AB00DDBC09 /* Navigator.swift */,
+			);
+			path = Navigators;
+			sourceTree = "<group>";
+		};
+		6995C3AC2296752E00DDBC09 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6995C3B722967DAD00DDBC09 /* Cells */,
+				6995C3B622967DA400DDBC09 /* Screens */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6995C3AD229677EB00DDBC09 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6995C3AE2296784900DDBC09 /* Quest.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6995C3B222967BB500DDBC09 /* QuestListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6995C3A82296752000DDBC09 /* QuestListViewController.swift */,
+				6995C3B422967C3F00DDBC09 /* QuestListViewController+UITableViewDataSource.swift */,
+			);
+			path = QuestListViewController;
+			sourceTree = "<group>";
+		};
+		6995C3B622967DA400DDBC09 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				6995C3B022967A6200DDBC09 /* QuestListViewController.xib */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		6995C3B722967DAD00DDBC09 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				6995C3B822967DE100DDBC09 /* QuestCell.swift */,
+				6995C3B922967DE100DDBC09 /* QuestCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		6995C3BC2296814B00DDBC09 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				6995C3BD2296817500DDBC09 /* NibLoadable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 		69CD2AD722955D70004DCA78 = {
 			isa = PBXGroup;
 			children = (
@@ -54,14 +125,49 @@
 		69CD2AE222955D70004DCA78 /* Quest Maker */ = {
 			isa = PBXGroup;
 			children = (
-				69CD2AE322955D70004DCA78 /* AppDelegate.swift */,
-				69CD2AE522955D70004DCA78 /* ViewController.swift */,
-				69CD2AE722955D70004DCA78 /* Main.storyboard */,
-				69CD2AEA22955D73004DCA78 /* Assets.xcassets */,
-				69CD2AEC22955D73004DCA78 /* LaunchScreen.storyboard */,
-				69CD2AEF22955D73004DCA78 /* Info.plist */,
+				69CD2AF722957756004DCA78 /* App */,
+				6995C3AD229677EB00DDBC09 /* Models */,
+				6995C3A5229664D100DDBC09 /* Navigators */,
+				6995C3BC2296814B00DDBC09 /* Protocols */,
+				69CD2AF5229576FF004DCA78 /* View Controllers */,
+				6995C3AC2296752E00DDBC09 /* Views */,
+				69CD2AF622957722004DCA78 /* Resources */,
+				69CD2AF822957780004DCA78 /* Storyboards */,
 			);
 			path = "Quest Maker";
+			sourceTree = "<group>";
+		};
+		69CD2AF5229576FF004DCA78 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6995C3B222967BB500DDBC09 /* QuestListViewController */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		69CD2AF622957722004DCA78 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				69CD2AEA22955D73004DCA78 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		69CD2AF722957756004DCA78 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				69CD2AE322955D70004DCA78 /* AppDelegate.swift */,
+				69CD2AEF22955D73004DCA78 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		69CD2AF822957780004DCA78 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				69CD2AEC22955D73004DCA78 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +228,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6995C3BB22967DE100DDBC09 /* QuestCell.xib in Resources */,
 				69CD2AEE22955D73004DCA78 /* LaunchScreen.storyboard in Resources */,
 				69CD2AEB22955D73004DCA78 /* Assets.xcassets in Resources */,
-				69CD2AE922955D70004DCA78 /* Main.storyboard in Resources */,
+				6995C3B122967A6200DDBC09 /* QuestListViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,22 +242,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69CD2AE622955D70004DCA78 /* ViewController.swift in Sources */,
+				6995C3BA22967DE100DDBC09 /* QuestCell.swift in Sources */,
+				6995C3AF2296784900DDBC09 /* Quest.swift in Sources */,
+				6995C3BE2296817500DDBC09 /* NibLoadable.swift in Sources */,
+				6995C3AA2296752000DDBC09 /* QuestListViewController.swift in Sources */,
+				6995C3B522967C3F00DDBC09 /* QuestListViewController+UITableViewDataSource.swift in Sources */,
 				69CD2AE422955D70004DCA78 /* AppDelegate.swift in Sources */,
+				6995C3A7229666AB00DDBC09 /* Navigator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		69CD2AE722955D70004DCA78 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				69CD2AE822955D70004DCA78 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		69CD2AEC22955D73004DCA78 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -284,7 +388,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8J39KF9DMS;
-				INFOPLIST_FILE = "Quest Maker/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Quest Maker/App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +406,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8J39KF9DMS;
-				INFOPLIST_FILE = "Quest Maker/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Quest Maker/App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
