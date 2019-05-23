@@ -9,12 +9,22 @@
 /// Model of individual quest.
 final class Quest {
     /// Quest's name.
-    let name: String
+    var name: String
+    
+    /// Places which belong to the quest.
+    var places: [Place]
+    
+    /// Order in which places should be visited.
+    var visitOrder: VisitOrder
     
     /// Init quest values.
     ///
-    /// - Parameter name: Quest's name.
-    init(name: String) {
+    /// - Parameters:
+    ///   - name: Quest's name.
+    ///   - places: Quest's places to visit.
+    init(name: String, places: [Place] = [], visitOrder: VisitOrder = .ordered) {
         self.name = name
+        self.places = places
+        self.visitOrder = visitOrder
     }
 }

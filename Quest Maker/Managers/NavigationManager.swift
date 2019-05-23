@@ -1,5 +1,5 @@
 //
-//  Navigator.swift
+//  NavigationManager.swift
 //  Quest Maker
 //
 //  Created by Denis Bystruev on 23/05/2019.
@@ -9,7 +9,7 @@
 import UIKit
 
 /// An object that manages navigation in the app.
-final class Navigator {
+final class NavigationManager {
     /// Presents a view controller.
     ///
     /// - Parameters:

@@ -10,6 +10,9 @@ import UIKit
 
 class QuestCell: UITableViewCell {
 
+    /// Set Quest Cell outlets.
+    ///
+    /// - Parameter name: String for name outlet.
     func set(name: String) {
         textLabel?.text = name
     }

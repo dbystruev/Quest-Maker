@@ -13,7 +13,7 @@ class QuestListViewController: UIViewController {
     @IBOutlet weak var questList: UITableView!
     
     /// The list of quests
-    var quests = [Quest]()
+    var quests = Quests()
     
     override func viewDidLoad() {
         quests = [
@@ -26,6 +26,6 @@ class QuestListViewController: UIViewController {
         questList.dataSource = self
         questList.register(QuestCell.nib, forCellReuseIdentifier: QuestCell.id)
         
-        title = "Quests"
+        title = quests.title
     }
 }

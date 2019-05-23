@@ -15,10 +15,12 @@ extension QuestListViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let configurator = CellManager()
         let id = QuestCell.id
         let cell = questList.dequeueReusableCell(withIdentifier: id)!
         let questCell = cell as! QuestCell
-        questCell.set(name: quests[indexPath.row].name)
+        let quest = quests[indexPath.row]
+        configurator.configure(cell: questCell, with: quest)
         return cell
     }
     
