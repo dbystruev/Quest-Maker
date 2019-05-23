@@ -25,5 +25,7 @@ class QuestListViewController: UIViewController {
         
         questList.dataSource = self
         questList.register(QuestCell.nib, forCellReuseIdentifier: QuestCell.id)
+        
+        title = "Quests"
     }
 }

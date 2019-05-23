@@ -40,7 +40,7 @@ final class Navigator {
         let navigationRoot = QuestListViewController()
         
         // create navigation controller
-        let root = UINavigationController(rootViewController: navigationRoot)
+        let root = NavigationController(rootViewController: navigationRoot)
         
         // show navigation controller
         show(root, sender: UIApplication.shared.delegate)
